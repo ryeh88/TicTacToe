@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
+
 }
 
 table{  
@@ -10,6 +11,11 @@ table{
     margin-top: 40px;
 }
 
+table, th, td {
+   border: 2px solid black;
+   box-shadow: 20px 1px 71px #8B5A2B;  
+}
+
 input {
     outline: 0;
     cursor: pointer;
@@ -17,21 +23,36 @@ input {
 }
 
 button {
- background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
+    background-color: #8B5A2B;
+    color: #CD853F;
+    border: 2px solid black;
     cursor:pointer;
-    overflow: hidden;
-    outline:none;
+    padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 35px;
+    margin-top: 18px;
+
 }
 
+
+
 body {
-    background-color: #CD853F;
+    height: 100%;
     margin-top: 0 !important;
     padding: 0 !important;
     margin-left: 0px;
     margin-right: 0px;  
+}
+
+.content {
+    background-color: #CD853F;
+    height:100%;
+}
+
+#board {
+
+
 }
 
 .board-name {
@@ -52,10 +73,19 @@ body {
     font-weight: bolder;
 }
 
+#board {
+    margin-top: -40px;
+    padding: 1px;
+}
+
 
 .square{
     width:100px;
-    height:100px;
+    height:100px; 
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .v{
@@ -66,4 +96,12 @@ body {
 .h{
     border-top:1px solid #000;
     border-bottom:1px solid #000;
+}
+
+.newGame{
+    background-color:#87CEFA;
+    margin-top: -20px;
+    height:100px;
+    text-align: center;
+
 }
