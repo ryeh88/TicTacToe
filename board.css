@@ -50,8 +50,8 @@ body {
     height:100%;
 }
 
-#board {
-
+#board table{
+    min-width: 400px;
 
 }
 
@@ -96,6 +96,12 @@ body {
 .h{
     border-top:1px solid #000;
     border-bottom:1px solid #000;
+}
+
+#winner {
+    display: none;
+    text-align: center;
+    background-color: #87CEFA;
 }
 
 .newGame{
